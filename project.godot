@@ -1,0 +1,18 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters vary by version.
+;
+; Format: 2
+
+config_version=5
+
+[application]
+config/name="tiny-world"
+runtime/renderer="forward_plus"
+run/main_scene="res://scenes/main/Main.tscn"
+
+[debug]
+settings/stdout/print_fps=true
+
+[rendering]
+anti_aliasing/quality/msaa=2

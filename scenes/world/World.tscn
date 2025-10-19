@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://WorldScene"]
+
+[ext_resource type="TileSet" path="res://scenes/world/TileSet.tres" id="1"]
+
+[node name="World" type="Node2D"]
+
+[node name="TileMap" type="TileMap" parent="."]
+texture_filter=0
+texture_repeat=0
+tile_set = ExtResource("1")
+cell_quadrant_size = 16
