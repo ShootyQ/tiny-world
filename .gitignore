@@ -1,0 +1,16 @@
+# Godot-specific ignores
+.export/
+.import/
+# Imported assets
+*.import
+# Godot editor cache
+.godot/
+# OS files
+.DS_Store
+Thumbs.db
+# Archives
+*.zip
+*.tar.gz
+# IDE
+.vscode/
+.idea/
