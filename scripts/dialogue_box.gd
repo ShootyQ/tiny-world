@@ -5,6 +5,10 @@ extends Control
 
 func _ready():
 	visible = false
+	# Prevent UI from stealing keyboard unless explicitly focused
+	focus_mode = Control.FOCUS_NONE
+	if input:
+		input.focus_mode = Control.FOCUS_CLICK
 	if input:
 		input.connect("text_submitted", Callable(self, "_on_input_submitted"))
 	if send_btn:
