@@ -2,9 +2,9 @@
 
 [ext_resource type="PackedScene" path="res://scenes/world/World.tscn" id="1_mm3lk"]
 [ext_resource type="Texture2D" uid="uid://bkgku0innhwaa" path="res://assets/sprites/tiles/grassbackground.png.png" id="2_lpyqo"]
-[ext_resource type="Script" uid="uid://b0ool3rk0ni8u" path="res://scenes/main/character_body_2d.gd" id="3_8ds1e"]
+[ext_resource type="Script" uid="uid://b0ool3rk0ni8u" path="res://scripts/character_body_2d.gd" id="3_8ds1e"]
 [ext_resource type="Texture2D" uid="uid://dnl0lps8qqhst" path="res://assets/sprites/player/player.png.png" id="4_cei6d"]
-[ext_resource type="Script" uid="uid://cb2kwl2re2ucs" path="res://scenes/main/npc.gd" id="5_s5r3c"]
+[ext_resource type="Script" uid="uid://cb2kwl2re2ucs" path="res://scripts/npc.gd" id="5_s5r3c"]
 [ext_resource type="Texture2D" uid="uid://c0lpbp3ddsnua" path="res://assets/sprites/NPC/npc.png.png" id="6_jc0vw"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_nha0i"]
